@@ -8,7 +8,7 @@ export default function NavBar() {
                 <figure>
                     <img className='rounded-full' src="https://picsum.photos/50/50" alt="image profile" />
                 </figure>
-
+                
                 <button
                     id="dropdown-button"
                     className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 rounded-lg cursor-pointer  dark:text-black "
