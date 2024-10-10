@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
-import NavBar from './coponents/NavBar'
-import EnlacePost from './coponents/EnlacePost'
+import NavBar from './components/NavBar'
+import EnlacePost from './components/EnlacePost'
 
 
 export default function App() {
