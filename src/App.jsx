@@ -1,10 +1,12 @@
 import { Route, Routes } from 'react-router-dom'
+import NavBar from './components/NavBar'
 
 
 export default function App() {
 
   return (
     <>
+
       <Routes>
         <Route path='/' element={<h1>Home</h1>} />
         <Route path='/todos' element={<h1>Todos</h1>} />
