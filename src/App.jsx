@@ -12,6 +12,7 @@ export default function App() {
         <Route path='/' element={<Home />} />
         <Route path="/albums" element={<Albums />} />
         <Route path="/todos" element={<TaskList />} /> {/* Nueva ruta para TaskList */}
+        <Route path="/EnlacePost/Posts" element={<Posts />} />
       </Routes>
     </>
   );
