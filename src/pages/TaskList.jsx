@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Task from './Task'
+import Task from "../components/Task"
 
 async function getData(url) {
     const data = await fetch(url)

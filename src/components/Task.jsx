@@ -1,11 +1,16 @@
 import React from 'react'
 
-export default function Task() {
+
+/* style={{ color: `${task.completed ? '#00ce00' : '#ff0000'}` }} */
+
+export default function Task({ task }) {
     return (
-        <div className="flex flex-col justify-between w-64 h-64 p-6 bg-white border border-gray-200 rounded-lg shadow">
-            <span className='text-end'>completed</span>
-            <h5 className="text-xl text-center font-bold tracking-tight text-gray-90">Task sadf a adfdf a adf asdas sa </h5>
-            <div><p className='hidden'>Un párrafo vacío :v</p></div>
-        </div>
+        <button>
+            <div className="flex flex-col justify-between w-64 h-64 p-6 bg-white border border-gray-200 rounded-lg shadow">
+                <span className='text-end' style={{ color: `${task.completed ? '#00ce00' : '#ff0000'}` }}>{task.completed ? 'completed' : 'pending'}</span>
+                <h5 className="text-xl text-center font-bold tracking-tight text-gray-90">{task.title}</h5>
+                <div><p className='hidden'>Texto oculto</p></div>
+            </div>
+        </button>
     )
 }
