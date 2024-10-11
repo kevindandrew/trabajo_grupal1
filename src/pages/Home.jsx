@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Albums from './Albums';
 
 export default function Home() {
   return (
@@ -13,7 +12,7 @@ export default function Home() {
           <Link to="/posts" className='font-bold text-white cursor-pointer'>Posts</Link>
         </div>
         <div className='w-[91%] h-[45%] bg-slate-400 flex justify-center items-center mb-12 shadow-lg'>
-          <Link to="/todos" className='font-bold text-white cursor-pointer'>Todos</Link>
+          <Link to="/todos" className='font-bold text-white cursor-pointer'>Todos</Link> {/* Enlace hacia la nueva ruta */}
         </div>
       </div>
     </section>
