@@ -1,13 +1,15 @@
 import React from 'react'
 
-function CardPhoto(title, url) {
+function CardPhoto({title, url}) {
   return (
-    <div>
+    <li>
       <div className='flex h-60 rounded-md overflow-hidden'>
                 <img className='w-full object-cover' src={`${url}`}/>
             </div>
             <div className='font-bold text-lg'>{`${title}`}</div>
-    </div>
+    </li>
+      
+
   )
 }
 

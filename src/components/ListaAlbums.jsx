@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Album from './Album';
 
@@ -15,11 +14,10 @@ export default function ListaAlbums() {
   return (
     <div className='flex justify-center'>
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-      {albums.map(album => (
-        <Album key={album.id} title={album.title} />
-      ))}
-    </ul>
+        {albums.map(album => (
+          <Album key={album.id} id={album.id} title={album.title} />
+        ))}
+      </ul>
     </div>
-    
   );
 }
