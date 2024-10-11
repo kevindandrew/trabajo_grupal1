@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Albums from './pages/Albums';
+import Posts from './pages/Posts'
 import TaskList from './pages/TaskList'; // Importa el componente TaskList
 
 export default function App() {
