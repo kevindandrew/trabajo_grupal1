@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Albums from './pages/Albums';
-import TaskList from './pages/TaskList'; // Importa el componente TaskList
+import TaskList from './pages/TaskList'; 
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path="/albums" element={<Albums />} />
-        <Route path="/todos" element={<TaskList />} /> {/* Nueva ruta para TaskList */}
+        <Route path="/todos" element={<TaskList />} /> 
       </Routes>
     </>
   );
