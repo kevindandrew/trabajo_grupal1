@@ -5,10 +5,10 @@ export default function EnlacePost({ }) {
 
 
     return (
-        <div className='border border-slate-600 rounded-lg'>
+        <div className='border border-slate-600 rounded-lg w-full h-full'>
             <ul className='list-none '>
                 <li className=''>
-                    <Link to={'#'}>
+                    <Link to={'#'} className='flex justify-center items-center'>
                         <span>
                             Post
                         </span>

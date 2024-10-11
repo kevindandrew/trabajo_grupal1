@@ -1,13 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
-import NavBar from './components/NavBar'
-import EnlacePost from './components/EnlacePost'
 
 
 export default function App() {
 
   return (
     <>
-      <EnlacePost />
+  
       <Routes>
         <Route path='/' element={<h1>Home</h1>} />
         <Route path='/todos' element={<h1>Todos</h1>} />
