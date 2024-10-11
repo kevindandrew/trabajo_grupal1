@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#albums{
+    background-image: url('../public/albums.gif');
+}
